@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+<employee>
+<id>1</id>
+<name>krishna</name>
+<gender>M</gender>
+</employee>
+<employee>
+<id>2</id>
+<name>Giridar</name>
+<gender>M</gender>
+</employee>
+<employee>
+<id>3</id>
+<name>Umesh</name>
+<gender>M</gender>
+</employee>
+<employee>
+<id>4</id>
+<name>Nakeeran</name>
+<gender>M</gender>
+</employee>
+</Data>
