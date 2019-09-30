@@ -41,26 +41,26 @@ Source data file is [Wikipedia (English) - all pages 20190901](https://dumps.wik
 
 | File Name  | Count | Image |
 | ------------- | ------------- | ----- |
-| No image.png  | 5125 |  ![](https://upload.wikimedia.org/wikipedia/commons/6/6d/No_image.png)  |
-| File:Med 3.png  | 3847  | ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Med_3.png)  |
-| File:Med 1.png  | 3276  |  ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Med_1.png)    |
-| File:Med 2.png  | 2786  |  ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Med_2.png)    |
-| File:1rightarrow.png  | 2712  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/3c/1rightarrow.png)    |
-| File:Crystal Clear app clean.png  | 1886  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/34/Crystal_Clear_app_clean.png)    |
-| File:TransparentPlaceholder.png  | 1585  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/TransparentPlaceholder.png)    |
-| File:Blue Arrow Up Darker.png  | 1389  |  ![](https://upload.wikimedia.org/wikipedia/commons/d/db/Blue_Arrow_Up_Darker.png)    |
-| File:Red-dot-5px.png  | 1163  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Red-dot-5px.png)    |
-| File:Kansas official transportation map legend.png  | 942  |  ![](https://upload.wikimedia.org/wikipedia/commons/4/44/Kansas_official_transportation_map_legend.png)    |
-| File:Gorm silver cup.jpg  | 934  |  ![](https://upload.wikimedia.org/wikipedia/commons/9/9f/Gorm_silver_cup.jpg)    |
-| File:European-African-Middle Eastern Campaign Medal streamer.png  | 858  |  ![](https://upload.wikimedia.org/wikipedia/commons/9/9d/European-African-Middle_Eastern_Campaign_Medal_streamer.png)    |
-| File:Sub on2.png  | 855  |  ![](https://upload.wikimedia.org/wikipedia/en/8/8d/Sub_on2.png)    |
-| File:WellingtonPhoenixColours.png  | 807  |  ![](https://upload.wikimedia.org/wikipedia/commons/5/5c/WellingtonPhoenixColours.png)    |
-| File:Livingston-Island-Map-2010-15.png  | 710  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Livingston-Island-Map-2010-15.png/799px-Livingston-Island-Map-2010-15.png)    |
-| File:Livingston-Island-Map-2010.jpg  | 586  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Livingston-Island-Map-2010.jpg/800px-Livingston-Island-Map-2010.jpg)    |
-| File:Example.jpg  | 586  |  ![](https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg)    |
-| File:PerthGloryColours.png  | 577  |  ![](https://upload.wikimedia.org/wikipedia/commons/d/da/PerthGloryColours.png)    |
-| File:NewcastleJetsColours.png  | 567  |  ![](https://upload.wikimedia.org/wikipedia/commons/5/52/NewcastleJetsColours.png)    |
-| File:Crystal Clear action button cancel.png  | 563  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Crystal_Clear_action_button_cancel.svg/128px-Crystal_Clear_action_button_cancel.svg.png)    |
+| [No image.png](https://en.wikipedia.org/wiki/File:No_image.png)  | 5125 |  ![](https://upload.wikimedia.org/wikipedia/commons/6/6d/No_image.png)  |
+| [Med 3.png](https://en.wikipedia.org/wiki/File:Med_3.png)  | 3847  | ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Med_3.png)  |
+| [Med 1.png](https://en.wikipedia.org/wiki/File:Med_1.png)  | 3276  |  ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Med_1.png)    |
+| [Med 2.png](https://en.wikipedia.org/wiki/File:Med_2.png)  | 2786  |  ![](https://upload.wikimedia.org/wikipedia/commons/2/25/Med_2.png)    |
+| [1rightarrow.png](https://en.wikipedia.org/wiki/File:1rightarrow.png)  | 2712  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/3c/1rightarrow.png)    |
+| [Crystal Clear app clean.png](https://en.wikipedia.org/wiki/File:Crystal_Clear_app_clean.png)  | 1886  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/34/Crystal_Clear_app_clean.png)    |
+| [TransparentPlaceholder.png](https://en.wikipedia.org/wiki/File:TransparentPlaceholder.png)  | 1585  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/3a/TransparentPlaceholder.png)    |
+| [Blue Arrow Up Darker.png](https://en.wikipedia.org/wiki/File:Blue_Arrow_Up_Darker.png)  | 1389  |  ![](https://upload.wikimedia.org/wikipedia/commons/d/db/Blue_Arrow_Up_Darker.png)    |
+| [Red-dot-5px.png](https://en.wikipedia.org/wiki/File:Red-dot-5px.png)  | 1163  |  ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Red-dot-5px.png)    |
+| [Kansas official transportation map legend.png](https://en.wikipedia.org/wiki/File:Kansas_official_transportation_map_legend.png)  | 942  |  ![](https://upload.wikimedia.org/wikipedia/commons/4/44/Kansas_official_transportation_map_legend.png)    |
+| [Gorm silver cup.jpg](https://en.wikipedia.org/wiki/File:Gorm_silver_cup.jpg)  | 934  |  ![](https://upload.wikimedia.org/wikipedia/commons/9/9f/Gorm_silver_cup.jpg)    |
+| [European-African-Middle Eastern Campaign Medal streamer.png](https://en.wikipedia.org/wiki/File:European-African-Middle_Eastern_Campaign_Medal_streamer.png)  | 858  |  ![](https://upload.wikimedia.org/wikipedia/commons/9/9d/European-African-Middle_Eastern_Campaign_Medal_streamer.png)    |
+| [Sub on2.png](https://en.wikipedia.org/wiki/File:Sub_on2.png)  | 855  |  ![](https://upload.wikimedia.org/wikipedia/en/8/8d/Sub_on2.png)    |
+| [WellingtonPhoenixColours.png](https://en.wikipedia.org/wiki/File:WellingtonPhoenixColours.png)  | 807  |  ![](https://upload.wikimedia.org/wikipedia/commons/5/5c/WellingtonPhoenixColours.png)    |
+| [Livingston-Island-Map-2010-15.png](https://en.wikipedia.org/wiki/File:Livingston-Island-Map-2010-15.png)  | 710  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Livingston-Island-Map-2010-15.png/799px-Livingston-Island-Map-2010-15.png)    |
+| [Livingston-Island-Map-2010.jpg](https://en.wikipedia.org/wiki/File:Livingston-Island-Map-2010.jpg)  | 586  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Livingston-Island-Map-2010.jpg/800px-Livingston-Island-Map-2010.jpg)    |
+| [Example.jpg](https://en.wikipedia.org/wiki/File:Example.jpg)  | 586  |  ![](https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg)    |
+| [PerthGloryColours.png](https://en.wikipedia.org/wiki/File:PerthGloryColours.png)  | 577  |  ![](https://upload.wikimedia.org/wikipedia/commons/d/da/PerthGloryColours.png)    |
+| [NewcastleJetsColours.png](https://en.wikipedia.org/wiki/File:NewcastleJetsColours.png)  | 567  |  ![](https://upload.wikimedia.org/wikipedia/commons/5/52/NewcastleJetsColours.png)    |
+| [Crystal Clear action button cancel.png](https://en.wikipedia.org/wiki/File:Crystal_Clear_action_button_cancel.png)  | 563  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Crystal_Clear_action_button_cancel.svg/128px-Crystal_Clear_action_button_cancel.svg.png)    |
 
 
 
