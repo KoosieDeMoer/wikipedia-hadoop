@@ -62,6 +62,10 @@ Source data file is [Wikipedia (English) - all pages 20190901](https://dumps.wik
 | [NewcastleJetsColours.png](https://en.wikipedia.org/wiki/File:NewcastleJetsColours.png)  | 567  |  ![](https://upload.wikimedia.org/wikipedia/commons/5/52/NewcastleJetsColours.png)    |
 | [Crystal Clear action button cancel.png](https://en.wikipedia.org/wiki/File:Crystal_Clear_action_button_cancel.png)  | 563  |  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Crystal_Clear_action_button_cancel.svg/128px-Crystal_Clear_action_button_cancel.svg.png)    |
 
+# Usage notes #
+Make a runnable jar file with the class MentionsYearDriver indicated as containing the main method.
+Run the jar in hadoop with command:
 
-
+    hadoop jar <jarFileName>
+    
 
