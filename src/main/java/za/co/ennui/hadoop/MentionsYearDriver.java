@@ -1,63 +1,52 @@
 
 package za.co.ennui.hadoop;
- 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-import org.apache.hadoop.conf.Configuration;
+
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
-import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
-import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.apache.hadoop.util.GenericOptionsParser;
- 
+import org.apache.hadoop.mapred.FileInputFormat;
+import org.apache.hadoop.mapred.FileOutputFormat;
+import org.apache.hadoop.mapred.InputFormat;
+import org.apache.hadoop.mapred.JobClient;
+import org.apache.hadoop.mapred.JobConf;
+import org.apache.hadoop.mapred.TextOutputFormat;
+
 public class MentionsYearDriver {
- 
-	private static final Log LOG = LogFactory.getLog(MentionsYearDriver.class);
-	
-    public static void main(String[] args) {
-        try {
- 
-            Configuration conf = new Configuration();
-            // conf.setInt(FixedLengthInputFormat.FIXED_RECORD_LENGTH, 2048);
- 
-            // OR alternatively you can set it this way, the name of the
-            // property is
-            // "mapreduce.input.fixedlengthinputformat.record.length"
-            // conf.setInt("mapreduce.input.fixedlengthinputformat.record.length",
-            // 2048);
-            String[] arg = new GenericOptionsParser(conf, args).getRemainingArgs();
- 
-            conf.set("START_TAG_KEY", "<employee>");
-            conf.set("END_TAG_KEY", "</employee>");
- 
-            Job job = new Job(conf, "XML Processing Processing");
-            job.setJarByClass(MentionsYearDriver.class);
- //           job.setMapperClass(MentionsMapper.class);
- 
-            job.setNumReduceTasks(0);
- 
-//            job.setInputFormatClass(XmlInputFormat.class);
-            // job.setOutputValueClass(TextOutputFormat.class);
- 
-            job.setMapOutputKeyClass(Text.class);
-            job.setMapOutputValueClass(LongWritable.class);
- 
-            job.setOutputKeyClass(Text.class);
-            job.setOutputValueClass(LongWritable.class);
- 
-            FileInputFormat.addInputPath(job, new Path(args[0]));
-            FileOutputFormat.setOutputPath(job, new Path(args[1]));
- 
-            job.waitForCompletion(true);
- 
-        } catch (Exception e) {
-            LOG.error("Driver Error: " + e.getMessage());
-            System.out.println(e.getMessage().toString());
-        }
-        // job.setReducerClass(ClickReducer.class);
- 
-    }
- 
+	public static void main(String[] args) {
+		JobClient my_client = new JobClient();
+		// Create a configuration object for the job
+		JobConf job_conf = new JobConf(MentionsYearDriver.class);
+
+		// Set a name of the Job
+		job_conf.setJobName("MentionsPerYear");
+
+		// Specify data type of output key and value
+		job_conf.setOutputKeyClass(Text.class);
+		job_conf.setOutputValueClass(IntWritable.class);
+
+		// Specify names of Mapper and Reducer Class
+		job_conf.setMapperClass(MentionsMapper.class);
+		job_conf.setReducerClass(MentionsYearReducer.class);
+
+		// Specify formats of the data type of Input and output
+
+		job_conf.setInputFormat((Class<? extends InputFormat>) XmlInputFormat.class);
+		job_conf.setOutputFormat(TextOutputFormat.class);
+
+		// Set input and output directories using command line arguments, 
+		//arg[0] = name of input directory on HDFS, and arg[1] =  name of output directory to be created to store the output file.
+		
+		FileInputFormat.setInputPaths(job_conf, new Path(args[0]));
+		FileOutputFormat.setOutputPath(job_conf, new Path(args[1]));
+
+		my_client.setConf(job_conf);
+		try {
+			// Run the job 
+			JobClient.runJob(job_conf);
+			//my_client.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
 }
