@@ -22,7 +22,7 @@ Source data file is [Wikipedia (English) - all pages 20190901](https://dumps.wik
 | [2017 in American television](https://en.wikipedia.org/wiki/2017_in_American_television) | 432660 |
 | [List of exoplanets discovered using the Kepler space telescope](https://en.wikipedia.org/wiki/List_of_exoplanets_discovered_using_the_Kepler_space_telescope) | 432412 |
 | [Panama Papers](https://en.wikipedia.org/wiki/Panama_Papers) | 432236 |
-| [List of United States Representatives from New York](https://en.wikipedia.org/wiki/List_of_United_States_Representatives_from_New York) | 432189 |
+| [List of United States Representatives from New York](https://en.wikipedia.org/wiki/List_of_United_States_Representatives_from_New_York) | 432189 |
 | [List of film director and actor collaborations](https://en.wikipedia.org/wiki/List_of_film_director_and_actor_collaborations) | 431913 |
 | [List of dramatic television series with LGBT characters](https://en.wikipedia.org/wiki/List_of_dramatic_television_series_with_LGBT_characters) | 429567 |
 | [1945 Birthday Honours](https://en.wikipedia.org/wiki/1945_Birthday_Honours) | 429464 |
